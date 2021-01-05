@@ -18,3 +18,5 @@ Server side built wih node
 + nodemon 2.0.6
 + supertest 6.0.1
 </details>
+
+[About the team](https://github.com/JS-Jr-Dev-Job-Board/About/blob/main/README.md)
