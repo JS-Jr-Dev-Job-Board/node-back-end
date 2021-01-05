@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/JS-Jr-Dev-Job-Board/node-back-end#readme",
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": ">=0.21.1",
     "colors": "^1.4.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
