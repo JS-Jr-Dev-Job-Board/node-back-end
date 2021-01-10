@@ -28,11 +28,11 @@ Server side built wih node
 <summary>Expand to get Git template</summary>
 
 ```js
-git commit -m "Refactor usability tests.
+git commit -m 'Refactor usability tests.
 >
 >
 Co-authored-by: Zac Smith zrs3141592@gmail.com
-Co-authored-by: Tom Sherman tom-sherman@lambdastudents.com"
+Co-authored-by: Tom Sherman tom-sherman@lambdastudents.com'
 
 
 ```
