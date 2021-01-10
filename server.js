@@ -4,6 +4,9 @@ const morgan = require('morgan')
 const cors = require('cors')
 require('colors')
 
+const connectDB = require('./utils/connectDB.js')
+connectDB()
+
 //const duckRouter = require('./models/router')
 
 const server = express()
