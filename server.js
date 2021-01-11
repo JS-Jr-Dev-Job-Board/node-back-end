@@ -8,6 +8,8 @@ const connectDB = require('./utils/connectDB.js')
 connectDB()
 
 const userRouter = require('./routes/user-router.js')
+const authRouter = require('./routes/auth-router.js')
+const jobRouter = require('./routes/job-router.js')
 const serverRouter = require('./routes/status-router.js') // last router in order
 
 const server = express()
@@ -18,7 +20,8 @@ server.use(cors())
 server.use(express.json())
 
 server.use('/api/v1/users', userRouter)
-
+server.use('/api/v1/auth', authRouter)
+server.use('/api/v1/jobs', jobRouter)
 server.use('/api/v1', serverRouter)
 
 module.exports = server
